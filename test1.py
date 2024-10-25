@@ -2,7 +2,6 @@ import asyncio
 import json
 import libsql_client
 import time
-from pprint import pprint as pp
 
 
 class ResultObject:
