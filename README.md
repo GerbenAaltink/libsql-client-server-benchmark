@@ -11,7 +11,7 @@ This project benchmarks the python libsql-client to determine performance differ
 
 You only have to run `make`. This will create a new python environment, installs the requirements and runs the application.
 
-Running without rebuilding environment is doable using `make test`.
+Running without rebuilding environment is doable using `make bench`.
 To (re)install but not run execute `make install`.
 
 ## Screen recording

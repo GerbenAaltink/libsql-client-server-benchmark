@@ -1,11 +1,11 @@
-all: install test
+all: install bench
 
 install:
 	-@rm -rf venv
 	python3 -m venv venv
 	pip install -r requirements.txt
 
-test:
+bench:
 	./venv/bin/python test1.py
 
 zip:
