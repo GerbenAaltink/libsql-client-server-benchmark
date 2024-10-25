@@ -6,7 +6,7 @@ install:
 	pip install -r requirements.txt
 
 bench:
-	./venv/bin/python test1.py
+	./venv/bin/python bench.py
 
 zip:
-	zip libsql-test.zip Makefile bench.gif README.md test1.py requirements.txt 
+	zip libsql-test.zip Makefile bench.gif README.md test1.py requirements.txt .gitignore
